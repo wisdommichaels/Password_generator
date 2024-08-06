@@ -29,6 +29,7 @@ The options object can have the following boolean properties:
 * 'password' (string): The generated password.
 
 ### Example Usage
+
 // Import or include the function in your script
 
 // Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters
@@ -91,6 +92,7 @@ The options object can have the following boolean properties:
 // 'NQVJSAAB'
 
 ## License
+
 This project is licensed under the ISC License.
 
 

@@ -1,10 +1,10 @@
-# Password Generator Function
+# Password Generator
 
 This JavaScript function generates passwords of various formats based on the specified options. You can customize the length and character sets included in the password.
 
 ## Usage
 
-### Function Signature
+## Function Signature
 
 ```javascript
 function generatePassword(length, options)
@@ -25,7 +25,7 @@ The options object can have the following boolean properties:
 ## Returns
 * 'password' (string): The generated password.
 
-### Example Usage
+## Example Usage
 // Import or include the function in your script
 
 // Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters
@@ -87,7 +87,7 @@ The options object can have the following boolean properties:
   console.log(password);
 // 'NQVJSAAB'
 
-## License
+# License
 This project is licensed under the ISC License.
 
 

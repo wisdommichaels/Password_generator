@@ -10,10 +10,12 @@ This JavaScript function generates passwords of various formats based on the spe
 function generatePassword(length, options)
 
 ## Parameters
+
 1: length (number): The length of the password to be generated.
 2: options (object): An object specifying the character sets to include in the password.
 
 ## Options Object
+
 The options object can have the following boolean properties:
 
 1: 'includeNumbers' (boolean): Whether to include numeric characters (e.g,'0-9').
@@ -23,9 +25,10 @@ The options object can have the following boolean properties:
 5: 'includelowerCase' (boolean): Whether to include lowerCase characters (e.g, 'a-z')
 
 ## Returns
+
 * 'password' (string): The generated password.
 
-## Example Usage
+### Example Usage
 // Import or include the function in your script
 
 // Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters
@@ -38,7 +41,7 @@ The options object can have the following boolean properties:
   };
   const password = generatePassword(10, option1);
   console.log(password);
-  //   'H8?2IihD5>'
+  //   'H8?2IihD5*'
 
   
 
@@ -87,7 +90,7 @@ The options object can have the following boolean properties:
   console.log(password);
 // 'NQVJSAAB'
 
-# License
+## License
 This project is licensed under the ISC License.
 
 

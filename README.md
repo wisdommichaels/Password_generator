@@ -11,18 +11,23 @@ This JavaScript function generates passwords of various formats based on the spe
 
 ## Parameters
 
-1: length (number): The length of the password to be generated.
-2: option (object): An object specifying the character sets to include in the password.
+. length (number): The length of the password to be generated.
+
+. option (object): An object specifying the character sets to include in the password.
 
 ## Options Object
 
 ### The options object can have the following boolean properties:
 
-1: 'includeNumbers' (boolean): Whether to include numeric characters (e.g,'0-9').
-2: 'includeAlphabet' (boolean): Whether to include alphabetic characters (e.g,'a-z, A-Z').
-3: 'includeSpecial' (boolean): Whether to include special characters (e.g, '!@#$%^&*()').
-4: 'includeupperCase' (boolean): Whether to include upperCase characters (e.g, 'A-Z').
-5: 'includelowerCase' (boolean): Whether to include lowerCase characters (e.g, 'a-z')
+. 'includeNumbers' (boolean): Whether to include numeric characters (e.g,'0-9')
+
+. 'includeAlphabet' (boolean): Whether to include alphabetic characters (e.g,'a-z, A-Z')
+
+. 'includeSpecial' (boolean): Whether to include special characters (e.g, '!@#$%^&*()')
+
+. 'includeupperCase' (boolean): Whether to include upperCase characters (e.g, 'A-Z')
+
+. 'includelowerCase' (boolean): Whether to include lowerCase characters (e.g, 'a-z')
 
 ## Returns
 > 'password' (string): The generated password.
@@ -110,5 +115,5 @@ This JavaScript function generates passwords of various formats based on the spe
 This project is licensed under the ISC License.
 
 
-This README file provides an overview of the `generatePassword` function, detailing its usage, parameters, options, and example usages.
+> This README file provides an overview of the `generatePassword` function, detailing its usage, parameters, options, and example usages.
 

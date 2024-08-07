@@ -6,33 +6,26 @@ This JavaScript function generates passwords of various formats based on the spe
 > $ npm i generate-password --save
 
 ## Usage
-
-## Function Signature 
-
+### Function Signature 
 > function generatePassword(length, option)
 
 ## Parameters
 
 1: length (number): The length of the password to be generated.
-
 2: option (object): An object specifying the character sets to include in the password.
 
 ## Options Object
 
-The options object can have the following boolean properties:
+### The options object can have the following boolean properties:
 
 1: 'includeNumbers' (boolean): Whether to include numeric characters (e.g,'0-9').
-
 2: 'includeAlphabet' (boolean): Whether to include alphabetic characters (e.g,'a-z, A-Z').
-
 3: 'includeSpecial' (boolean): Whether to include special characters (e.g, '!@#$%^&*()').
-
 4: 'includeupperCase' (boolean): Whether to include upperCase characters (e.g, 'A-Z').
-
 5: 'includelowerCase' (boolean): Whether to include lowerCase characters (e.g, 'a-z')
-## Returns
 
-* 'password' (string): The generated password.
+## Returns
+> 'password' (string): The generated password.
 
 # Example Usage
 > Import or include the function in your script

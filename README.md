@@ -2,17 +2,20 @@
 
 This JavaScript function generates passwords of various formats based on the specified options. You can customize the length and character sets included in the password.
 
+# install
+npm i generate-password
+
+
 ## Usage
 
 ## Function Signature
 
-```javascript
-function generatePassword(length, options)
+function generatePassword(length, option)
 
 ## Parameters
 
 1: length (number): The length of the password to be generated.
-2: options (object): An object specifying the character sets to include in the password.
+2: option (object): An object specifying the character sets to include in the password.
 
 ## Options Object
 
@@ -29,9 +32,8 @@ The options object can have the following boolean properties:
 * 'password' (string): The generated password.
 
 ### Example Usage
-
 // Import or include the function in your script
-
+```
 // Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters
   const option1 = {
     includeNumbers: true,
@@ -42,7 +44,7 @@ The options object can have the following boolean properties:
   };
   const password = generatePassword(10, option1);
   console.log(password);
-  //   'H8?2IihD5*'
+  // 'H8?2IihD5*'
 
   
 
@@ -55,6 +57,7 @@ The options object can have the following boolean properties:
 // '49076379'
   
 
+
    // Example 2: Generate an 8-character password with Alphabets only
   const option3 = {
     includeAlphabet: true,
@@ -64,6 +67,7 @@ The options object can have the following boolean properties:
 // 'lNxUYohD'
 
 
+
  // Example 2: Generate an 8-character password with special characters only
   const option4 = {
     includeSpecial: true,
@@ -71,6 +75,7 @@ The options object can have the following boolean properties:
   const password = generatePassword(8, option4);
   console.log(password);
 // ')%};|]@$'
+
 
 
  // Example 2: Generate an 8-character password with lowerCase only
@@ -90,6 +95,7 @@ The options object can have the following boolean properties:
   const password = generatePassword(8, option6);
   console.log(password);
 // 'NQVJSAAB'
+```
 
 ## License
 

@@ -1,5 +1,5 @@
 
-export const passwordgenerator = (generatePassword)
+export const passwordgenerator = generatePassword
  
 function generatePassword(length, option) {
     const numericChars = '0123456789';

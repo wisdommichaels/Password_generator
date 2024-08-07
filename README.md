@@ -33,7 +33,7 @@ The options object can have the following boolean properties:
 
 ### Example Usage
 // Import or include the function in your script
-```
+
 // Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters
   const option1 = {
     includeNumbers: true,
@@ -95,7 +95,7 @@ The options object can have the following boolean properties:
   const password = generatePassword(8, option6);
   console.log(password);
 // 'NQVJSAAB'
-```
+
 
 ## License
 

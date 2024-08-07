@@ -64,7 +64,7 @@ This JavaScript function generates passwords of various formats based on the spe
   
 
 
- ### Example 2: Generate an 8-character password with Alphabets only
+ ### Example 3: Generate an 8-character password with Alphabets only
  ```javascript
   const option3 = {
     includeAlphabet: true,
@@ -75,7 +75,7 @@ This JavaScript function generates passwords of various formats based on the spe
 ```
 
 
- ### Example 2: Generate an 8-character password with special characters only
+ ### Example 4: Generate an 8-character password with special characters only
  ```javascript
   const option4 = {
     includeSpecial: true,
@@ -87,7 +87,7 @@ This JavaScript function generates passwords of various formats based on the spe
 
 
 
- ### Example 2: Generate an 8-character password with lowerCase only
+ ### Example 5: Generate an 8-character password with lowerCase only
  ```javascript
   const option5 = {
     includelowerCase: true,
@@ -99,7 +99,7 @@ This JavaScript function generates passwords of various formats based on the spe
 
 
 
- ### Example 2: Generate an 8-character password with upperCase only
+ ### Example 6: Generate an 8-character password with upperCase only
  ```javascript
   const option6 = {
     includeupperCase: true,
@@ -121,4 +121,5 @@ This project is licensed under the ISC License.
 If you have any questions or feedback, please feel free to contact me at ijarwisdom@gmail.com or send a dm on linkedIn: http://linkedin.com/in/ijar-wisdom-320a99321.
 
 ## Github 
-This will redirect you to my Github page if you want to read more about this package.
+This link bellow will redirect you to my Github page if you want to read more about this package.
+> https://github.com/wisdommichaels/Password_generator

@@ -3,14 +3,12 @@
 This JavaScript function generates passwords of various formats based on the specified options. You can customize the length and character sets included in the password.
 
 # install
-npm i generate-password
-
+$ npm i generate-password --save
 
 ## Usage
 
 ## Function Signature
-
-function generatePassword(length, option)
+>>> function generatePassword(length, option)
 
 ## Parameters
 
@@ -31,7 +29,7 @@ The options object can have the following boolean properties:
 
 * 'password' (string): The generated password.
 
-### Example Usage
+# Example Usage
 // Import or include the function in your script
 
 // Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters

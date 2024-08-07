@@ -118,7 +118,7 @@ This project is licensed under the ISC License.
 > This README file provides an overview of the `generatePassword` function, detailing its usage, parameters, options, and example usages.
 
 ## Contact
-If you have any questions or feedback, please feel free to contact me at ijarwisdom@gmail.com or send a dm on linkedIn: http://linkedin.com/in/ijar-wisdom-320a99321.
+If you have any questions or feedback, please feel free to contact me at ijarwisdom@gmail.com or send a dm on linkedIn: linkedin.com/in/wisdom-michaels-320a99321.
 
 ## Github 
 This link bellow will redirect you to my Github page if you want to read more about this package.

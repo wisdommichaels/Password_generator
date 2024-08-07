@@ -120,4 +120,5 @@ This project is licensed under the ISC License.
 ## Contact
 If you have any questions or feedback, please feel free to contact me at ijarwisdom@gmail.com or send a dm on linkedIn: http://linkedin.com/in/ijar-wisdom-320a99321.
 
-
+## Github 
+This will redirect you to my Github page if you want to read more about this package.

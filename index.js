@@ -1,4 +1,6 @@
-module.exports.generatePassword = function (length, option) {
+module.exports.password = generatePassword
+
+function generatePassword (length, option) {
     const numericChars = '0123456789';
     const alphabeticChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -49,3 +51,4 @@ module.exports.generatePassword = function (length, option) {
   
     return password;
   }
+  

@@ -1,16 +1,19 @@
-module.exports.passwordgenerator = function (length, option) {
-  const numericChars = '0123456789';
+module.exports.generatePassword = function (length, option) {
+    const numericChars = '0123456789';
     const alphabeticChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const  lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
     const specialChars = '!@#$%^&*()_+[]{}|;:,.<>?';
   
     // initialize all characters in a variable call characters
+
     let characters = '';
+
+     // check the condition of each option to return a boolean base on the value
+     
     if (!option) {
       characters+= numericChars + alphabeticChars + specialChars + upperCaseChars + lowerCaseChars
     } else { 
-      // check the condition of each option to return a boolean base on the value
       if (option.includeNumbers) {
         characters += numericChars;
       }
@@ -34,8 +37,11 @@ module.exports.passwordgenerator = function (length, option) {
       }
       
       // create a variable to get the generated password
+
       let password = '';
+
       // loop through the length of the password
+
       for (let i = 0; i < length; i++) {
         const randomIndex = Math.floor(Math.random() * characters.length);
         password += characters[randomIndex];

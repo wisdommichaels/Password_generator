@@ -1,4 +1,4 @@
-# Password Generator
+# Generate Password
 
 This JavaScript function generates passwords of various formats based on the specified options. You can customize the length and character sets included in the password.
 

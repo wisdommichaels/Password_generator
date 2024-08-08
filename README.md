@@ -1,3 +1,6 @@
+# This package has been Deprecated, please bellow is the link to the updated package of this version.
+> https://www.npmjs.com/package/easy_random_password
+
 # Password Generator
 
 This JavaScript function generates passwords of various formats based on the specified options. You can customize the length and character sets included in the password.

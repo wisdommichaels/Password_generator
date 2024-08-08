@@ -1,5 +1,5 @@
 {
-  "name": "easy_random_password_genertor",
+  "name": "easy_random_password",
   "version": "1.7.2",
   "main": "index.js",
   "scripts": {

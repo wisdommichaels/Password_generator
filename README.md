@@ -37,14 +37,14 @@ This JavaScript function generates passwords of various formats based on the spe
 
 ### Example 1: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters
 ```javascript
-  const option1 = {
+  const option = {
     includeNumbers: true,
     includeAlphabet: true,
     includeSpecial: true,
     includelowerCase: true,
     includeupperCase: true,
   };
-  const password = generatePassword(10, option1);
+  const password = generatePassword(10, option);
   console.log(password);
   // 'H8?2IihD5*'
 ```
@@ -54,10 +54,10 @@ This JavaScript function generates passwords of various formats based on the spe
   ### Example 2: Generate an 8-character password with numbers 
   
   ```javascript
-  const option2 = {
+  const option = {
     includeNumbers: true,
   };
-  const password = generatePassword(8, option2);
+  const password = generatePassword(8, option);
   console.log(password);
 // '49076379'
 ```
@@ -66,10 +66,10 @@ This JavaScript function generates passwords of various formats based on the spe
 
  ### Example 3: Generate an 8-character password with Alphabets only
  ```javascript
-  const option3 = {
+  const option = {
     includeAlphabet: true,
   };
-  const password = generatePassword(8, option3);
+  const password = generatePassword(8, option);
   console.log(password);
 // 'lNxUYohD'
 ```
@@ -77,10 +77,10 @@ This JavaScript function generates passwords of various formats based on the spe
 
  ### Example 4: Generate an 8-character password with special characters only
  ```javascript
-  const option4 = {
+  const option = {
     includeSpecial: true,
   };
-  const password = generatePassword(8, option4);
+  const password = generatePassword(8, option);
   console.log(password);
 // ')%};|]@$'
 ```
@@ -89,10 +89,10 @@ This JavaScript function generates passwords of various formats based on the spe
 
  ### Example 5: Generate an 8-character password with lowerCase only
  ```javascript
-  const option5 = {
+  const option = {
     includelowerCase: true,
   };
-  const password = generatePassword(8, option5);
+  const password = generatePassword(8, option);
   console.log(password);
 // 'nyknlzps'
 ```
@@ -101,10 +101,10 @@ This JavaScript function generates passwords of various formats based on the spe
 
  ### Example 6: Generate an 8-character password with upperCase only
  ```javascript
-  const option6 = {
+  const option = {
     includeupperCase: true,
   };
-  const password = generatePassword(8, option6);
+  const password = generatePassword(8, option);
   console.log(password);
 // 'NQVJSAAB'
 ```
@@ -118,7 +118,7 @@ This project is licensed under the ISC License.
 > This README file provides an overview of the `generatePassword` function, detailing its usage, parameters, options, and example usages.
 
 ## Contact
-If you have any questions or feedback, please feel free to contact me at ijarwisdom@gmail.com or send a dm on linkedIn: linkedin.com/in/wisdom-michaels-320a99321.
+If you have any questions or feedback, please feel free to contact me at ijarwisdom@gmail.com or send a dm on linkedIn: http://linkedin.com/in/wisdom-michaels-320a99321.
 
 ## Github 
 This link bellow will redirect you to my Github page if you want to read more about this package.

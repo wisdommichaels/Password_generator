@@ -49,7 +49,7 @@ This JavaScript function generates passwords of various formats based on the spe
   console.log(password);
   // 'H8?2IihD5*'
 ```
-#### Note: If the option parameter is not included, it generates a password using a default value of true for all options 
+##### Note: If the option parameter is not included, it generates a password using a default value of true for all options 
   
 
 ### Example 2: Generate a 10-character password with numbers, alphabet, special, upperCase and lowerCase characters

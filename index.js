@@ -49,3 +49,6 @@ module.exports.generatePassword = function (length, option) {
   
     return password;
   }
+
+  const password = generatePassword(10);
+  console.log(password);
